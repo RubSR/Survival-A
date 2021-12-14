@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c879df807f0db4499899b818ac555319, type: 3}
+  m_Name: Piedra
+  m_EditorClassIdentifier: 
+  nombreObjeto: Piedra
+  descripcion: Para construir
+  tipo: 0
+  icono: {fileID: 21300000, guid: 89fbd536259594fa7a9e5e7485c655d6, type: 3}
+  prefab: {fileID: 2538431687305679311, guid: e27fbd75e896a4eda87999c6241026b8, type: 3}
+  puedeStackear: 1
+  maxStack: 24
