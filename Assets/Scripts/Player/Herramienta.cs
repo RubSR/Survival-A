@@ -29,6 +29,24 @@ public class Herramienta : Equipo
 
     public override void Atacar()
     {
+        //Comprobamos que no estamos atacando
+        if (!atacando)
+        {
+            atacando = true;
+            anim.SetTrigger("Atacar");
+            //Espera el tiempo(ratio de ataque para ejecutar el metodo(PuedeAtacar))
+            Invoke("PuedeAtacar", ratioAtaque);
+        }
         
     }
-}
+    private void PuedeAtacar()
+    {
+        atacando = false;
+    }
+    // Funcion llamada por el evento de la animacion
+    // de ataque
+    public void OnHit()
+    {
+        
+    }
+} // Fin de la clase principal

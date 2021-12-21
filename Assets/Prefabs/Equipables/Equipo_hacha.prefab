@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6181847254899517036}
   - component: {fileID: 4463200684286410150}
+  - component: {fileID: 187955397}
   m_Layer: 11
   m_Name: Equipo_hacha
   m_TagString: Untagged
@@ -44,6 +45,30 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 16ee15deca2b54844befafba7ce0cfcf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  ratioAtaque: 0
+  distanciaAtaque: 0
+  puedeRecolectar: 0
+  puedeCombatir: 0
+  damage: 0
+--- !u!95 &187955397
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6456479584381584943}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: f4be982ffb4224b25921edf056d1ab68, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1001 &5922054432774632813
 PrefabInstance:
   m_ObjectHideFlags: 0

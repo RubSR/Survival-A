@@ -27,7 +27,7 @@ public class EquipoManager : MonoBehaviour
         if(context.phase == InputActionPhase.Performed && equipoActual != null &&
             controller.puedeMirar == true)
             {
-                //equipoActual.Atacar();
+                equipoActual.Atacar();
             }
     }
     
